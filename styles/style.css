@@ -50,6 +50,7 @@ h3{
     margin: 15px;
     margin-left: 0;
 }
+
 #left p{
     margin: 15px;
     margin-right: 0;
@@ -113,6 +114,36 @@ progress{
     background-color:rgb(63, 179, 83) ;
     margin-left: 10px;
    }
-   
+   @media only screen and (max-width: 835px) {
+    #left{
+        border-right: 0;
+
+    }
+    #right h2::before {
+   display: none;
+   }
+   #left h2::after {
+    display: none;
+   }
+   .leftDot{
+    display: none;
+   }
+   .rightDot{
+    display: none;
+   }
+
+   main{
+    flex-direction: column;
+   }
+   #left{
+    width: 100%;
+    text-align: left;
+   }
+   #right{
+    width: 100%;
+   }
+
+
+   }
    
 
