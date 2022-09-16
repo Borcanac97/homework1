@@ -72,7 +72,7 @@ progress{
      
     accent-color:rgb(63, 179, 83); 
 }
-.rightDot{
+.right-dot{
     position: absolute;
     top: 5px;
     border-radius: 50%;
@@ -83,7 +83,7 @@ progress{
     z-index: 1;
 
 }
-.leftDot{
+.left-dot{
     position: absolute;
     top: 5px;
     border-radius: 50%;
@@ -114,7 +114,8 @@ progress{
     background-color:rgb(63, 179, 83) ;
     margin-left: 10px;
    }
-   @media only screen and (max-width: 835px) {
+
+@media only screen and (max-width: 835px) {
     #left{
         border-right: 0;
 
@@ -125,10 +126,10 @@ progress{
    #left h2::after {
     display: none;
    }
-   .leftDot{
+   .left-dot{
     display: none;
    }
-   .rightDot{
+   .right-dot{
     display: none;
    }
 
